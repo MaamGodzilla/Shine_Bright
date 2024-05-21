@@ -1,0 +1,108 @@
+.fo1 {
+    text-align: center;
+    
+}
+form {
+    justify-content: center;
+}
+
+
+button {
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 15px;
+    justify-content: start;
+    font-weight: bold; 
+}
+
+
+
+.no-border {
+    border: 0;
+    box-shadow: none; 
+    outline: none;
+    border-bottom: solid black 1px;
+    border-radius: 0;
+    border-left: 400px; 
+    background-color: white; 
+
+}
+
+.txt {
+    text-align: start;
+    width: 358px;
+   
+    font-weight: bold;
+}
+
+p {
+    font-size: 10px;
+    text-align: start;
+    
+}
+
+a:link {
+    text-decoration: none;
+}
+
+form {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    background-color: white;
+}
+
+.container {
+    font-weight: bold;
+}
+
+.ig {
+    
+    margin-top: 100px;
+   
+    height: 500px;
+    width: 540px;
+}
+.don {
+    color: rgba(14, 13, 13, 0.39);
+    margin-top: 30px;
+    font-size: 13px;
+    text-align: center;
+    
+
+}
+p .sn {
+    color: black;
+}
+p a:hover {
+    color: rgb(50, 153, 153);
+
+}
+.inter {
+    justify-content: center;
+    
+}
+.iterm {
+    text-align: start;
+    width: 100%;
+}
+@media only screen and (max-width: 1200px) {
+    button {
+        width: 100%; 
+    }
+    
+    .no-border {
+        border-left: 0; 
+    }
+    
+    .txt, p {
+        width: 100%; 
+        margin-left: 0;
+    }
+    .ig {
+        width: 400px;   
+        float: none;
+        justify-content: center;
+        
+        
+    }
+}
